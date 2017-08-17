@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Home Automation System</title>
+		<link rel="stylesheet" type="text/css" href="styles/index.css"/>		<script src="jquery-2.2.3.js"></script> 		<script src="index.js"></script>
+	</head>
+	<body id="body_index">
+		<section>			<div id="logo">				<img src="imagens/logo.png" alt="Logo Home Automation System">			</div>			<br>
+			<div id="login">
+				<h1 id="titulo">Login</h1>
+				<form id="FormLogin" onsubmit="validate_form()">
+					  <input id="email" type="email" placeholder="E-Mail" autofocus required autocomplete="off"><br>
+					  <input id="password" type="password" placeholder="Password" required><br>
+					  <input id="LoginButton"  onclick="admin()" type="submit" value="Login">
+				</form>				<a href="#">Forgot your password?</a>
+			</div>
+		</section>
+		<footer>HAS | All rights reserved</footer>
+	</body>
+</html>

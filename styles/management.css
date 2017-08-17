@@ -1,0 +1,86 @@
+table{
+	border-collapse: collapse;
+}
+.form, .list{
+	width: 50%;
+	float: left;
+	padding: 0px 50px;
+}
+.contact{
+	width: 50%;
+	padding: 0px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.about{
+	width: 100%;
+	padding: 0 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	overflow: auto;
+	height: 100%;
+}
+form h3, form p, .list h3{
+	text-align: center;
+}
+.list{
+	border-right: 1px solid rgba(100,100,100,0.2);
+	height: 100%;
+	overflow: auto;
+}
+#controllers, #users{
+	padding: 5px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+form{
+	width: 100%;
+	text-align: left;
+}
+#edit_controller, #edit_user{
+	display: none;
+}		
+form input, form select, form textarea{
+	margin-bottom: 5px;
+	width: 100%;
+	padding: 5px;
+}
+form input[type='submit'], form button{
+	width: 150px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+#controllers_list, #users_list{
+	width: 100%;
+}
+.buttons{
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+th{
+	border-bottom: 1px solid rgba(100,100,100,0.2);
+}
+td{
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: rgba(100,100,100,0.2);
+}
+tr:hover{
+	cursor: pointer;
+}
+.selected_item{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f5f6), to(#c8d7dc));
+	background-image: -webkit-linear-gradient(top, #f2f5f6, #c8d7dc);
+	background-image: -moz-linear-gradient(top, #f2f5f6, #c8d7dc);
+	background-image: -ms-linear-gradient(top, #f2f5f6, #c8d7dc);
+	background-image: -o-linear-gradient(top, #f2f5f6, #c8d7dc);
+	background-image: linear-gradient(to bottom, #f2f5f6, #c8d7dc);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f5f6, endColorstr=#c8d7dc);
+	font-weight: bold;
+}
